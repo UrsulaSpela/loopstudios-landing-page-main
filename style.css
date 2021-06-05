@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 1440px;
+}
+
+/* ------------------------------------------------------------------- */
+
+#head {
+  width: 1440px;
+  height: 650px;
+  background: url(images/desktop/image-hero.jpg) no-repeat;
+  background-size: contain;
+  padding: 50px 160px;
+}
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 195px;
+  height: 40px;
+  background: url(images/logo.svg) no-repeat;
+}
+.navbar-top {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+}
+h1 {
+  width: 650px;
+  height: 280px;
+  border: 2px solid white;
+  color: white;
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 35px 45px;
+  margin-top: 130px;
+}
+
+/* ------------------------------------------------------------------- */
+
+#about {
+  width: 1440px;
+  height: 800px;
+  display: flex;
+  padding: 160px 0 0 160px;
+}
+#vr-guy {
+  width: 731px;
+  height: 500px;
+}
+#txt {
+  width: 550px;
+  height: 315px;
+  background: white;
+  position: relative;
+  left: -160px;
+  top: 185px;
+  padding: 85px 0 0 95px;
+}
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+p {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 55%);
+  font-size: 15px;
+  line-height: 25px;
+  padding-right: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+#creations {
+  padding: 0 160px;
+  height: 1250px;
+}
+#creations-title {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 155px;
+  height: 40px;
+  border: 2px solid hsl(0, 0%, 41%);
+  background: white;
+  text-transform: uppercase;
+  font-family: "Alata", sans-serif;
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+button:hover {
+  color: white;
+  background: black;
+}
+#creations-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 25px;
+}
+.item {
+  width: 256px;
+  height: 450px;
+}
+h3 {
+  color: white;
+  text-transform: uppercase;
+  position: relative;
+  top: 350px;
+  left: 35px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  padding-right: 45px;
+  z-index: 5;
+}
+
+/* ------------------------------------------------------------------- */
+
+footer {
+  height: 160px;
+  background: black;
+  color: white;
+}
