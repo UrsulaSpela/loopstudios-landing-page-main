@@ -14,6 +14,9 @@ main {
 }
 
 /* ------------------------------------------------------------------- */
+.mobile {
+  display: none;
+}
 
 #head {
   width: 1440px;
@@ -172,4 +175,63 @@ footer {
 }
 .social:hover {
   border-bottom: 1px solid white;
+}
+
+/* ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+  #main {
+    width: 375px;
+  }
+  #head {
+    width: 375px;
+    height: 100vh;
+    padding: 35px 25px;
+    background: url(images/mobile/image-hero.jpg) no-repeat;
+    background-size: contain;
+  }
+  .navbar-top {
+    display: none;
+  }
+  h1 {
+    width: 325px;
+    height: 197px;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 20px;
+  }
+
+  /* ------------------------------------------------------------------- */
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  #about {
+    width: 375px;
+    height: 100vh;
+    flex-direction: column;
+    padding: 90px 25px 0 25px;
+  }
+  .interactive {
+    width: 325px;
+    height: 225px;
+  }
+  #txt {
+    width: 325px;
+    height: 265px;
+    left: 0px;
+    top: 0px;
+    padding: 30px 0 0 0px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
